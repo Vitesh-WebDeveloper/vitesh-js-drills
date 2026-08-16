@@ -90,3 +90,51 @@ console.log(
         )
 );
 
+
+
+
+// Group 2 — Reference Types, Equality & Modern Safety Operators
+
+// Problems — Basic
+// Check what typeof returns for a string, number, boolean, array, and null. Note anything surprising.
+
+// let str = "hello";
+// console.log(typeof(str));
+// let nu = 2;
+// console.log(typeof(nu));
+// let boo = true;
+// let loo = false;
+// console.log(typeof(boo),typeof(loo));
+// let arr = [1,2,3,4]
+// console.log(typeof(arr));
+// let n = 0;
+// let nul = null;
+// console.log(typeof(n),typeof(nul));
+
+// Write one example where == and === give different results.
+
+// let fiftyO = 50;
+// let fiftyT = "50";
+// if (fiftyO == fiftyT) {
+//     console.log("yes it is satifying == condition");
+// } else {
+//     console.log("no it is not satisfying == condition");
+// }
+
+// if (fiftyO === fiftyT) {
+//     console.log("yes it is satifying === condition");
+// } else {
+//     console.log("no it is not satisfying === condition");
+// }
+
+// Given { address: null }, safely read .address.city without throwing, using ?..
+let home = {
+    address: null,
+    pin:"oo0"
+}
+console.log(home.address?.city);
+
+// Compare 0 ?? "N/A" and 0 || "N/A" — write both, note the difference.
+
+// Write a shallow copy of { a: 1, b: 2 } two different ways.
+
