@@ -29,7 +29,7 @@
 
 // console.log(FIlTER);
 
-// //reduce :
+// 4.reduce :
 // let arr4 = [10,20,3,5];
 // let REDUCE = arr4.reduce((ele,cu)=>{
 //     return ele + cu;
@@ -37,7 +37,7 @@
 
 // console.log(REDUCE);
 
-// find
+// 5.find
 // const users = [
 //   { id: 101, name: 'Alice' },
 //   { id: 205, name: 'Bob' },
@@ -54,7 +54,7 @@
 // Output: { id: 205, name: 'Bob' }
 
 
-// promise
+// 6.promise
 // let prom = () =>{
 //     return new Promise((resolve,reject) =>{
 //         setTimeout(() => {
@@ -72,7 +72,7 @@
 // })
 
 
-// async/await
+// 7.async/await
 // let asw = async  () =>{
 // return new Promise ((resolve,reject)=>{
 //         setTimeout(() => {
@@ -95,7 +95,7 @@
 
 // name()
 
-// fetchApi
+// 8.fetchApi
 // let fe = async  () => {
 //     let apt = await fetch('https://jsonplaceholder.typicode.com/todos/1');
 //     let f = await apt.json();
