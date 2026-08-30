@@ -103,3 +103,41 @@
     
 // }
 // fe();
+
+
+
+// spread operator
+
+// let a = {
+//     name : "Vitesh",
+//     age : 20
+// };
+
+// let aa = {
+//     job : "webdeveloper",
+//     intersts : "In FullStack"
+// };
+
+// let combined  = {...a, ...aa};
+
+// console.log(combined);
+
+// let word = "rail way"
+// console.log([...word]);
+
+// let numbers = [1,22,3,11,1,8,5,7,7];
+
+// let remDupe = [...new Set(numbers)];
+
+// console.log(numbers);
+
+// console.log(remDupe);
+
+
+
+// const numbers = [5, 2, 9, 1, 7];
+
+// const min = Math.min(...numbers); // 1
+// const max = Math.max(...numbers); // 9
+
+// console.log(`Min: ${min}, Max: ${max}`);
